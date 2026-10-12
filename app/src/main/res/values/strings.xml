@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Pocket Arcade</string>
+
+    <!-- botões globais -->
+    <string name="btn_limpar">Limpar</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_abrir">Abrir</string>
+    <string name="btn_sair">Encerrar Sessão</string>
+    <string name="btn_tentar">Tentar</string>
+    <string name="btn_novo_jogo">Nova Partida</string>
+
+    <!-- Informações da Apresentação -->
+    <string name="info_estudante">Sebastian Domingues de Souza • 20251012000627 • ADS</string>
+    <string name="titulo">Pocket Arcade</string>
+    <string name="apelido">Seu apelido</string>
+    <string name="digite_seu_apelido">Digite seu apelido:</string>
+    <string name="btn_entrar">Entrar no Pocket Arcade</string>
+    <string name="erro_apelido_curto">O apelido deve ter pelo menos 3 caracteres</string>
+
+    <!-- Descrição -->
+    <string name="desc_app_logo">Logotipo do Pocket Arcade</string>
+    <string name="desc_scanner_icon">Ícone do Scanner de Mensagens</string>
+    <string name="desc_arena_icon">Ícone da Arena Pedra, Papel e Tesoura</string>
+    <string name="desc_vault_icon">Ícone do Código Secreto</string>
+    <string name="desc_randomizer_icon">Ícone do Randomizador</string>
+
+    <!-- activity_menu -->
+    <string name="scanner_de_mensagens">Scanner de Mensagens</string>
+    <string name="descricao_scanner">Analise caracteres, palavras, vogais e descubra palíndromos.</string>
+    <string name="arena_pedra_papel_e_tesoura">Arena: Pedra, Papel e Tesoura</string>
+    <string name="descricao_pedra_papel_tesoura">Dispute uma melhor de três contra o dispositivo com sons e animação.</string>
+    <string name="cofre_codigo_secreto">Cofre: Código Secreto</string>
+    <string name="descricao_cofre">Descubra a combinação de 4 dígitos em até 8 tentativas.</string>
+    <string name="randomizador_de_palavras">Randomizador de Palavras</string>
+    <string name="descricao_randomizador">Cadastre itens e sorteie palavras dinamicamente por categoria.</string>
+    <string name="ola">Olá, apelido!</string>
+
+    <!-- Scanner de Mensagens  activity_scanner -->
+    <string name="titulo_scanner">Scanner de Mensagens</string>
+    <string name="entrada_mensagem">Digite uma mensagem para analisar</string>
+    <string name="btn_analisar">Analisar</string>
+    <string name="caracteres_sem_espacos">Caracteres sem espaços:</string>
+    <string name="contador_palavras">Palavras:</string>
+    <string name="contador_vogais">Vogais:</string>
+    <string name="texto_invertido">Texto invertido:</string>
+    <string name="palindromo">Palíndromo:</string>
+    <string name="palindromo_sim">Sim</string>
+    <string name="palindromo_nao">Não</string>
+    <string name="erro_palavra_curta">Digite ao menos 3 caracteres para analisar</string>
+    <string name="resultado_da_analise">Resultado da Análise</string>
+
+    <!-- Pedra, Papel e Tesoura activity_arena -->
+    <string name="titulo_arena">Arena: Pedra, Papel e Tesoura</string>
+    <string name="escolher_jogada">Escolha sua jogada</string>
+    <string name="marcador_jogador">Jogador: </string>
+    <string name="marcador_dispositivo">Dispositivo: </string>
+    <string name="status_empate">Empate na rodada!</string>
+    <string name="status_player_ganhar_round">Ponto para você!</string>
+    <string name="status_rcpu_ganhar_round">Ponto para o dispositivo!</string>
+    <string name="status_final_vitoria">Parabéns! Você venceu a disputa!</string>
+    <string name="status_final_perdeu">O dispositivo venceu a disputa!</string>
+    <string name="placar">Jogador: 0 | Dispositivo: 0</string>
+    <string name="opc_pedra">Pedra</string>
+    <string name="opc_papel">Papel</string>
+    <string name="opc_tesoura">Tesoura</string>
+    <string name="voce">Você</string>
+    <string name="sua_escolha">Sua escolha</string>
+    <string name="vs">VS</string>
+    <string name="dispositivo">Dispositivo</string>
+    <string name="escolha_do_dispositivo">Escolha do dispositivo</string>
+    <string name="escolha_uma_opcao">Escolha uma opção acima para jogar</string>
+    <string name="fim_partida">Fim de Jogo, clique em nova partida para recomeçar.</string>
+
+    <!-- Código Secreto activity_vault -->
+    <string name="titulo_cofre">Cofre: Código Secreto</string>
+    <string name="instrucao_cofre">Descubra o código de 4 dígitos diferentes</string>
+    <string name="dica_campo_tentativa">4 dígitos únicos (ex: 4271)</string>
+    <string name="label_tentativas_restantes">Tentativas restantes: </string>
+    <string name="label_historico">Histórico de Tentativas:</string>
+    <string name="erro_quatro_digitos">Digite exatamente 4 dígitos numéricos</string>
+    <string name="erro_digitos_repetidos">Os dígitos não podem se repetir</string>
+    <string name="vitoria_cofre">Parabéns! Você abriu o cofre!</string>
+    <string name="derrota_cofre">Você perdeu! O código era: </string>
+    <string name="tempo_gasto">Tempo: </string>
+    <string name="segundos">s</string>
+    <string name="tentativas_restantes">Tentativas restantes: 8</string>
+
+    <!-- Randomizador activity_randomizer -->
+    <string name="titulo_randomizador">Randomizador de Palavras</string>
+    <string name="dica_palavra">Digite uma palavra ou item</string>
+    <string name="btn_adicionar">Adicionar</string>
+    <string name="btn_sortear">Sortear</string>
+    <string name="erro_campo_vazio">Digite um texto para adicionar</string>
+    <string name="aviso_sem_itens_categoria">Não há itens cadastrados nesta categoria!</string>
+    <string name="resultado_sorteio">Sorteado: </string>
+    <string name="msg_excluir_item">Item removido da lista</string>
+    <string name="lista">LISTA</string>
+    <string name="grade">GRADE</string>
+</resources>

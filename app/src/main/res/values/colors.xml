@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Cores base do tema Arcade/Escuro -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_escuro">#0F111A</color>
+    <color name="card">#1A1D2B</color>
+
+    <!-- Cores Neon dos desafios -->
+    <color name="neon_azul">#00D2FF</color>
+    <color name="neon_rosa">#FF007F</color>
+    <color name="neon_laranja">#FF6B00</color>
+    <color name="neon_roxo">#9D00FF</color>
+
+    <!-- Cores TERMO -->
+    <color name="termo_verde">#4CAF50</color>
+    <color name="termo_amarelo">#FFC107</color>
+    <color name="termo_cinza">#757575</color>
+
+    <!-- Cores Arena -->
+    <color name="cor_fundo">#B8B5B0</color>
+
+</resources>
